@@ -1,0 +1,13 @@
+2024-10-23T20:11:44.423+0800	DEBUG	web-app/main.go:37	logger init success
+2024-10-23T20:11:44.473+0800	ERROR	mysql/mysql.go:27	connect DB failed, err:%v
+	{"error": "Error 1045 (28000): Access denied for user 'root'@'localhost' (using password: YES)"}
+2024-10-23T20:13:39.834+0800	DEBUG	web-app/main.go:37	logger init success
+2024-10-23T20:17:02.996+0800	INFO	web-app/main.go:73	Shutdown Server ...
+2024-10-23T20:17:02.996+0800	INFO	web-app/main.go:82	Server exiting
+2024-10-23T20:17:05.738+0800	DEBUG	web-app/main.go:37	logger init success
+2024-10-23T20:17:13.481+0800	INFO	logger/logger.go:66	/main	{"status": 404, "method": "GET", "path": "/main", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36", "errors": "", "cost": 0}
+2024-10-23T20:17:13.574+0800	INFO	logger/logger.go:66	/favicon.ico	{"status": 404, "method": "GET", "path": "/favicon.ico", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36", "errors": "", "cost": 0}
+2024-10-23T20:17:17.052+0800	INFO	logger/logger.go:66	/	{"status": 200, "method": "GET", "path": "/", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36", "errors": "", "cost": 0}
+2024-10-23T20:18:05.114+0800	INFO	logger/logger.go:66	/fuck	{"status": 404, "method": "GET", "path": "/fuck", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36", "errors": "", "cost": 0}
+2024-10-23T20:18:09.594+0800	INFO	logger/logger.go:66	/fuck/	{"status": 404, "method": "GET", "path": "/fuck/", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36", "errors": "", "cost": 0}
+2024-10-23T20:18:15.916+0800	DEBUG	web-app/main.go:37	logger init success
