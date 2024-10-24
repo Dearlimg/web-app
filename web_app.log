@@ -16,3 +16,22 @@
 2024-10-23T21:20:19.877+0800	INFO	logger/logger.go:67	/	{"status": 200, "method": "GET", "path": "/", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36", "errors": "", "cost": 0.0010012}
 2024-10-23T21:20:19.920+0800	INFO	logger/logger.go:67	/favicon.ico	{"status": 404, "method": "GET", "path": "/favicon.ico", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36", "errors": "", "cost": 0}
 2024-10-23T21:20:24.387+0800	INFO	logger/logger.go:67	/fuck	{"status": 200, "method": "GET", "path": "/fuck", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36", "errors": "", "cost": 0}
+2024-10-24T18:20:31.388+0800	DEBUG	web-app/main.go:37	logger init success
+2024-10-24T18:21:04.835+0800	DEBUG	web-app/main.go:37	logger init success
+2024-10-24T19:06:31.849+0800	INFO	logger/logger.go:67	/	{"status": 200, "method": "GET", "path": "/", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36", "errors": "", "cost": 0}
+2024-10-24T19:06:31.907+0800	INFO	logger/logger.go:67	/favicon.ico	{"status": 404, "method": "GET", "path": "/favicon.ico", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36", "errors": "", "cost": 0}
+2024-10-24T19:06:37.748+0800	INFO	logger/logger.go:67	/fuck	{"status": 200, "method": "GET", "path": "/fuck", "query": "", "ip": "::1", "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36", "errors": "", "cost": 0}
+2024-10-24T20:46:07.795+0800	DEBUG	web-app/main.go:38	logger init success
+2024-10-24T20:46:44.713+0800	DEBUG	web-app/main.go:38	logger init success
+2024-10-24T20:47:48.229+0800	DEBUG	web-app/main.go:38	logger init success
+2024-10-24T20:50:19.885+0800	DEBUG	web-app/main.go:38	logger init success
+2024-10-24T20:56:16.025+0800	DEBUG	web-app/main.go:38	logger init success
+2024-10-24T20:56:33.567+0800	DEBUG	web-app/main.go:38	logger init success
+2024-10-24T21:02:38.182+0800	DEBUG	web-app/main.go:38	logger init success
+2024-10-24T21:04:51.596+0800	DEBUG	web-app/main.go:38	logger init success
+2024-10-24T21:07:00.230+0800	DEBUG	web-app/main.go:38	logger init success
+2024-10-24T21:07:09.402+0800	DEBUG	web-app/main.go:38	logger init success
+2024-10-24T21:07:17.658+0800	DEBUG	web-app/main.go:38	logger init success
+2024-10-24T21:07:49.921+0800	DEBUG	web-app/main.go:38	logger init success
+2024-10-24T21:08:45.617+0800	DEBUG	web-app/main.go:38	logger init success
+2024-10-24T21:12:03.161+0800	DEBUG	web-app/main.go:38	logger init success
