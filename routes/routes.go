@@ -2,6 +2,7 @@ package routes
 
 import (
 	"net/http"
+	"web-app/controllers"
 	"web-app/logger"
 
 	"github.com/gin-gonic/gin"
@@ -10,6 +11,8 @@ import (
 func Init() *gin.Engine {
 	r := gin.Default()
 	r.Use(logger.GinLogger(), logger.GinRecovery(true))
+
+	r.POST("/signup", controllers.SignUpHandler)
 
 	r.GET("/", func(c *gin.Context) {
 		c.String(http.StatusOK, "hello world")

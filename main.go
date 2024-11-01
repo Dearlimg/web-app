@@ -9,6 +9,7 @@ import (
 	"os/signal"
 	"syscall"
 	"time"
+	"web-app/controllers"
 	"web-app/dao/mysql"
 	"web-app/dao/redis"
 	"web-app/logger"
@@ -52,6 +53,11 @@ func main() {
 	fmt.Println(settings.Conf.StartTime, settings.Conf.MachineID)
 	if err := snowflake.Init(settings.Conf.StartTime, settings.Conf.MachineID); err != nil {
 		fmt.Println("init snowflake failed:", err)
+		return
+	}
+
+	if err := controllers.InitTrans("zh"); err != nil {
+		fmt.Println("init translator failed:", err)
 		return
 	}
 

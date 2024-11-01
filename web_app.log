@@ -76,3 +76,21 @@
 2024-11-01T19:02:09.112+0800	DEBUG	web-app/main.go:38	logger init success
 2024-11-01T19:06:11.679+0800	DEBUG	web-app/main.go:38	logger init success
 2024-11-01T19:07:08.566+0800	DEBUG	web-app/main.go:38	logger init success
+2024-11-01T19:32:59.550+0800	INFO	logger/logger.go:67	/signup	{"status": 404, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-01T19:33:08.150+0800	INFO	logger/logger.go:67	/signup	{"status": 404, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-01T20:17:07.889+0800	DEBUG	web-app/main.go:38	logger init success
+2024-11-01T20:17:40.637+0800	ERROR	controllers/user.go:17	c.ShouldBindJSON(p) with invalid param	{"error": "json: Unmarshal(non-pointer models.ParamSignUp)"}
+2024-11-01T20:17:40.637+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-01T20:28:08.707+0800	ERROR	controllers/user.go:17	c.ShouldBindJSON(p) with invalid param	{"error": "json: Unmarshal(non-pointer models.ParamSignUp)"}
+2024-11-01T20:28:08.707+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-01T20:28:55.371+0800	DEBUG	web-app/main.go:38	logger init success
+2024-11-01T20:29:01.680+0800	ERROR	controllers/user.go:17	c.ShouldBindJSON(p) with invalid param	{"error": "json: Unmarshal(non-pointer models.ParamSignUp)"}
+2024-11-01T20:29:01.680+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-01T20:30:23.106+0800	DEBUG	web-app/main.go:38	logger init success
+2024-11-01T20:30:26.397+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-01T20:30:57.266+0800	ERROR	controllers/user.go:17	c.ShouldBindJSON(p) with invalid param	{"error": "invalid character '}' looking for beginning of object key string"}
+2024-11-01T20:30:57.266+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-01T20:31:18.678+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0004984}
+2024-11-01T20:37:42.736+0800	DEBUG	web-app/main.go:38	logger init success
+2024-11-01T20:38:13.605+0800	ERROR	controllers/user.go:17	c.ShouldBindJSON(p) with invalid param	{"error": "Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+2024-11-01T20:38:13.605+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}

@@ -10,12 +10,12 @@ import (
 var Conf = new(AppConfig)
 
 type AppConfig struct {
-	Name      string `yaml:"name"mapstructure:"name"`
-	Mode      string `yaml:"mode"mapstructure:"mode"`
-	Version   string `yaml:"version"mapstructure:"version"`
-	StartTime string `yaml:"start_time"mapstructure:"start_time"`
-	MachineID int64  `yaml:"machine_id"mapstructure:"machine_id"`
-	Port      int    `yaml:"port"mapstructure:"port"`
+	Name      string `mapstructure:"name"`
+	Mode      string `mapstructure:"mode"`
+	Version   string `mapstructure:"version"`
+	StartTime string `mapstructure:"start_time"`
+	MachineID int64  `mapstructure:"machine_id"`
+	Port      int    `mapstructure:"port"`
 
 	*LogConfig   `mapstructure:"log"`
 	*MySQLConfig `mapstructure:"mysql"`
@@ -60,9 +60,9 @@ func Init() (err error) {
 		fmt.Printf("viper.ReadInConfig() failed, err:%v\n", err)
 		return
 	}
-
-	// 打印读取到的配置信息
-	fmt.Println("读取到的配置信息:", viper.AllSettings())
+	//
+	//// 打印读取到的配置信息
+	//fmt.Println("读取到的配置信息:", viper.AllSettings())
 
 	//fmt.Println("hehe", viper.GetString("mysql"))
 	//反序列化配置信息到conf变量
@@ -70,11 +70,11 @@ func Init() (err error) {
 		fmt.Printf("viper.Unmarshal() failed, err:%v\n", err)
 	}
 
-	fmt.Println("哈哈1", Conf.LogConfig)
-	fmt.Println("哈哈3", Conf.MySQLConfig)
-	fmt.Println("哈哈4", Conf.RedisConfig)
-	fmt.Println("哈哈5", Conf.MachineID)
-	fmt.Println(Conf)
+	//fmt.Println("哈哈1", Conf.LogConfig)
+	//fmt.Println("哈哈3", Conf.MySQLConfig)
+	//fmt.Println("哈哈4", Conf.RedisConfig)
+	//fmt.Println("哈哈5", Conf.MachineID)
+	//fmt.Println(Conf)
 	// 开始监视配置文件变化
 	viper.WatchConfig()
 	viper.OnConfigChange(func(e fsnotify.Event) {
