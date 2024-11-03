@@ -94,3 +94,54 @@
 2024-11-01T20:37:42.736+0800	DEBUG	web-app/main.go:38	logger init success
 2024-11-01T20:38:13.605+0800	ERROR	controllers/user.go:17	c.ShouldBindJSON(p) with invalid param	{"error": "Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
 2024-11-01T20:38:13.605+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-02T17:19:04.162+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-02T17:20:33.108+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-02T17:21:27.854+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-02T17:21:52.416+0800	ERROR	controllers/user.go:17	c.ShouldBindJSON(p) with invalid param	{"error": "Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+2024-11-02T17:21:52.416+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-02T17:22:46.048+0800	ERROR	controllers/user.go:17	c.ShouldBindJSON(p) with invalid param	{"error": "Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+2024-11-02T17:22:46.048+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0002138}
+2024-11-02T17:27:20.530+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-02T17:27:28.615+0800	ERROR	controllers/user.go:19	c.ShouldBindJSON(p) with invalid param	{"error": "Key: 'ParamSignUp.RePassword' Error:Field validation for 'RePassword' failed on the 'required' tag"}
+2024-11-02T17:27:28.615+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-02T17:30:10.886+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-02T17:30:15.721+0800	ERROR	controllers/user.go:19	c.ShouldBindJSON(p) with invalid param	{"error": "Key: 'ParamSignUp.re_password' Error:Field validation for 're_password' failed on the 'required' tag"}
+2024-11-02T17:30:15.721+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-02T17:36:01.435+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-02T17:36:07.667+0800	ERROR	controllers/user.go:19	c.ShouldBindJSON(p) with invalid param	{"error": "Key: 'ParamSignUp.re_password' Error:Field validation for 're_password' failed on the 'required' tag"}
+2024-11-02T17:36:07.667+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-02T17:36:38.592+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-02T17:36:43.362+0800	ERROR	controllers/user.go:19	c.ShouldBindJSON(p) with invalid param	{"error": "Key: 'ParamSignUp.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+2024-11-02T17:36:43.362+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-03T18:59:33.191+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-03T18:59:55.794+0800	ERROR	controllers/user.go:18	c.ShouldBindJSON(p) with invalid param	{"error": "Key: 'ParamSignUp.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+2024-11-03T18:59:55.794+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.000501}
+2024-11-03T19:00:07.642+0800	ERROR	controllers/user.go:18	c.ShouldBindJSON(p) with invalid param	{"error": "Key: 'ParamSignUp.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+2024-11-03T19:00:07.642+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-03T19:00:14.647+0800	ERROR	controllers/user.go:33	logic.SignUp(p) failed	{"error": "Error 1046 (3D000): No database selected"}
+2024-11-03T19:00:14.647+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0175798}
+2024-11-03T19:02:59.767+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-03T19:03:03.815+0800	ERROR	controllers/user.go:33	logic.SignUp(p) failed	{"error": "Error 1046 (3D000): No database selected"}
+2024-11-03T19:03:03.815+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0127762}
+2024-11-03T19:03:05.747+0800	ERROR	controllers/user.go:33	logic.SignUp(p) failed	{"error": "Error 1046 (3D000): No database selected"}
+2024-11-03T19:03:05.747+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-03T19:04:30.381+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-03T19:04:34.065+0800	ERROR	controllers/user.go:33	logic.SignUp(p) failed	{"error": "Error 1046 (3D000): No database selected"}
+2024-11-03T19:04:34.065+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0015042}
+2024-11-03T19:07:39.560+0800	ERROR	controllers/user.go:33	logic.SignUp(p) failed	{"error": "Error 1046 (3D000): No database selected"}
+2024-11-03T19:07:39.560+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0011548}
+2024-11-03T19:07:45.270+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-03T19:07:50.670+0800	ERROR	controllers/user.go:33	logic.SignUp(p) failed	{"error": "Error 1046 (3D000): No database selected"}
+2024-11-03T19:07:50.670+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0010072}
+2024-11-03T19:09:56.402+0800	ERROR	controllers/user.go:18	c.ShouldBindJSON(p) with invalid param	{"error": "Key: 'ParamSignUp.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+2024-11-03T19:09:56.402+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-03T19:10:54.081+0800	ERROR	controllers/user.go:33	logic.SignUp(p) failed	{"error": "Error 1046 (3D000): No database selected"}
+2024-11-03T19:10:54.081+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-03T19:13:04.082+0800	ERROR	controllers/user.go:33	logic.SignUp(p) failed	{"error": "Error 1046 (3D000): No database selected"}
+2024-11-03T19:13:04.082+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005014}
+2024-11-03T19:13:10.116+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-03T19:13:12.979+0800	ERROR	controllers/user.go:33	logic.SignUp(p) failed	{"error": "Error 1046 (3D000): No database selected"}
+2024-11-03T19:13:12.980+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-03T19:13:27.270+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-03T19:13:30.424+0800	ERROR	controllers/user.go:33	logic.SignUp(p) failed	{"error": "Error 1046 (3D000): No database selected"}
+2024-11-03T19:13:30.424+0800	INFO	logger/logger.go:67	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005017}

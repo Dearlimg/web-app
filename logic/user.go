@@ -2,19 +2,29 @@ package logic
 
 import (
 	"web-app/dao/mysql"
+	"web-app/models"
 	"web-app/pkg/snowflake"
-
-	"github.com/gin-gonic/gin"
 )
 
-func SignUp(c *gin.Context) {
+func SignUp(p *models.ParamSignUp) (err error) {
 	//判断用户存不存在
-	mysql.QueryUserByUsername()
 
+	err = mysql.CheckUserExist(p.Username)
+	if err != nil {
+		//数据库查询出错
+		return
+	}
 	//生成uuid
-	snowflake.GenID()
+	userID := snowflake.GenID()
+	u := &models.User{
+		UserID:   userID,
+		Username: p.Username,
+		Password: p.Password,
+	}
 	//密码加密
 	//保存到数据库
-	mysql.InsertUser()
+_:
+	mysql.InsertUser(u)
+	return
 
 }
