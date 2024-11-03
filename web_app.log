@@ -6,3 +6,31 @@
 2024-11-03T19:49:46.620+0800	INFO	logger/logger.go:79	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0011197}
 2024-11-03T19:49:48.347+0800	ERROR	controllers/user.go:33	logic.SignUp(p) failed	{"error": "用户已存在"}
 2024-11-03T19:49:48.347+0800	INFO	logger/logger.go:79	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005786}
+2024-11-03T20:19:22.506+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-03T20:19:38.210+0800	ERROR	controllers/user.go:64	logic.Login(p) failed	{"error": "用户已存在"}
+2024-11-03T20:19:38.211+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0025304}
+2024-11-03T20:19:50.610+0800	ERROR	controllers/user.go:64	logic.Login(p) failed	{"error": "用户已存在"}
+2024-11-03T20:19:50.611+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0010055}
+2024-11-03T20:20:50.463+0800	ERROR	controllers/user.go:64	logic.Login(p) failed	{"error": "用户已存在"}
+2024-11-03T20:20:50.464+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0010078}
+2024-11-03T20:20:53.032+0800	ERROR	controllers/user.go:64	logic.Login(p) failed	{"error": "sql: no rows in result set"}
+2024-11-03T20:20:53.032+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0015489}
+2024-11-03T20:21:04.733+0800	ERROR	controllers/user.go:64	logic.Login(p) failed	{"error": "用户已存在"}
+2024-11-03T20:21:04.733+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0011064}
+2024-11-03T20:22:10.576+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-03T20:22:14.549+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0017772}
+2024-11-03T20:22:44.737+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-03T20:22:47.186+0800	ERROR	controllers/user.go:64	logic.Login(p) failed	{"error": "sql: no rows in result set"}
+2024-11-03T20:22:47.186+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0010055}
+2024-11-03T20:24:49.617+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005006}
+2024-11-03T20:26:03.095+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-03T20:26:06.489+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0020118}
+2024-11-03T20:27:55.853+0800	INFO	logger/logger.go:79	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0178515}
+2024-11-03T20:28:11.766+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0010856}
+2024-11-03T20:28:21.859+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005006}
+2024-11-03T20:46:24.244+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-03T20:46:29.491+0800	ERROR	controllers/user.go:64	logic.Login(p) failed	{"error": "scannable dest type ptr with >1 columns (2) in result"}
+2024-11-03T20:46:29.492+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0010058}
+2024-11-03T20:46:37.851+0800	ERROR	controllers/user.go:64	logic.Login(p) failed	{"error": "scannable dest type ptr with >1 columns (2) in result"}
+2024-11-03T20:46:37.851+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0012481}
+2024-11-03T20:48:11.882+0800	DEBUG	web-app/main.go:39	logger init success

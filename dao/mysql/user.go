@@ -39,3 +39,17 @@ func encryptPassword(password string) (string, error) {
 	h.Sum([]byte(password))
 	return hex.EncodeToString(h.Sum([]byte(password))), nil
 }
+
+func CheckUserPassword(User *models.ParamLogin) error {
+	opassword := User.Password
+	sqlStr := `select username,password from user where username=?`
+	err := db.Get(User, sqlStr, User.Username)
+	if err != nil {
+		return err
+	}
+	password, _ := encryptPassword(opassword)
+	if password != User.Password {
+		return errors.New("密码错误")
+	}
+	return nil
+}

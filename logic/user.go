@@ -23,8 +23,9 @@ func SignUp(p *models.ParamSignUp) (err error) {
 	}
 	//密码加密
 	//保存到数据库
-_:
-	mysql.InsertUser(u)
-	return
+	return mysql.InsertUser(u)
+}
 
+func Login(p *models.ParamLogin) (err error) {
+	return mysql.CheckUserPassword(p)
 }
