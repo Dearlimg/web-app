@@ -18,7 +18,7 @@ import (
 
 //var Logger *zap.Logger
 
-func Init(cfg *settings.LogConfig) (err error) {
+func Init(cfg *settings.LogConfig, mode string) (err error) {
 	writeSyncer := getLogWriter(cfg.Filename, cfg.MaxSize, cfg.MaxBackups, cfg.MaxAge)
 	//writeSyncer := getLogWriter(viper.GetString("log.filename"), viper.GetInt("log.maxsize"), viper.GetInt("log.maxBackups"), viper.GetInt("log.maxAge"))
 
@@ -28,8 +28,20 @@ func Init(cfg *settings.LogConfig) (err error) {
 	if err != nil {
 		return err
 	}
-	core := zapcore.NewCore(encoder, writeSyncer, l)
+
+	var core zapcore.Core
+	if mode == "dev" {
+		consoleEncoder := zapcore.NewConsoleEncoder(zap.NewDevelopmentEncoderConfig())
+		core = zapcore.NewTee(
+			zapcore.NewCore(encoder, writeSyncer, l),
+			zapcore.NewCore(consoleEncoder, zapcore.Lock(os.Stdout), zapcore.DebugLevel),
+		)
+	} else {
+		core = zapcore.NewCore(encoder, writeSyncer, l)
+	}
+
 	//Logger = zap.New(core, zap.AddCaller())
+
 	lg := zap.New(core, zap.AddCaller())
 	zap.ReplaceGlobals(lg)
 	//替换zap库中全局logger
