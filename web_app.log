@@ -34,3 +34,80 @@
 2024-11-03T20:46:37.851+0800	ERROR	controllers/user.go:64	logic.Login(p) failed	{"error": "scannable dest type ptr with >1 columns (2) in result"}
 2024-11-03T20:46:37.851+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0012481}
 2024-11-03T20:48:11.882+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-03T20:48:15.553+0800	ERROR	controllers/user.go:64	logic.Login(p) failed	{"error": "密码错误"}
+2024-11-03T20:48:15.554+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0010033}
+2024-11-03T20:48:21.835+0800	ERROR	controllers/user.go:64	logic.Login(p) failed	{"error": "sql: no rows in result set"}
+2024-11-03T20:48:21.835+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005024}
+2024-11-03T20:48:28.093+0800	ERROR	controllers/user.go:64	logic.Login(p) failed	{"error": "密码错误"}
+2024-11-03T20:48:28.094+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005043}
+2024-11-03T20:48:32.241+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-03T20:48:39.573+0800	ERROR	controllers/user.go:64	logic.Login(p) failed	{"error": "密码错误"}
+2024-11-03T20:48:39.573+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-03T20:48:44.090+0800	ERROR	controllers/user.go:49	c.ShouldBindJSON(p) with invalid param	{"error": "Key: 'ParamLogin.password' Error:Field validation for 'password' failed on the 'required' tag"}
+2024-11-03T20:48:44.090+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-03T20:48:49.989+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.000502}
+2024-11-03T21:36:24.183+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-03T21:36:55.809+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0033781}
+2024-11-03T21:37:07.112+0800	ERROR	controllers/user.go:75	logic.Login(p) failed	{"error": "sql: no rows in result set"}
+2024-11-03T21:37:07.112+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0010593}
+2024-11-03T21:39:22.506+0800	ERROR	controllers/user.go:75	logic.Login(p) failed	{"error": "sql: no rows in result set"}
+2024-11-03T21:39:22.506+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0004442}
+2024-11-03T21:39:27.579+0800	ERROR	controllers/user.go:75	logic.Login(p) failed	{"error": "sql: no rows in result set"}
+2024-11-03T21:39:27.579+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-03T21:39:32.828+0800	ERROR	controllers/user.go:75	logic.Login(p) failed	{"error": "sql: no rows in result set"}
+2024-11-03T21:39:32.828+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0010011}
+2024-11-03T21:39:36.834+0800	ERROR	controllers/user.go:56	c.ShouldBindJSON(p) with invalid param	{"error": "Key: 'ParamLogin.password' Error:Field validation for 'password' failed on the 'required' tag"}
+2024-11-03T21:39:36.834+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-03T21:49:54.364+0800	ERROR	controllers/user.go:56	c.ShouldBindJSON(p) with invalid param	{"error": "Key: 'ParamLogin.password' Error:Field validation for 'password' failed on the 'required' tag"}
+2024-11-03T21:49:54.364+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-03T21:52:54.630+0800	ERROR	controllers/user.go:20	c.ShouldBindJSON(p) with invalid param	{"error": "Key: 'ParamSignUp.re_password' Error:Field validation for 're_password' failed on the 'required' tag"}
+2024-11-03T21:52:54.630+0800	INFO	logger/logger.go:79	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005306}
+2024-11-03T21:53:09.021+0800	ERROR	controllers/user.go:20	c.ShouldBindJSON(p) with invalid param	{"error": "invalid character '\"' after object key:value pair"}
+2024-11-03T21:53:09.022+0800	INFO	logger/logger.go:79	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0008765}
+2024-11-03T21:53:15.693+0800	ERROR	controllers/user.go:20	c.ShouldBindJSON(p) with invalid param	{"error": "invalid character '\"' after object key:value pair"}
+2024-11-03T21:53:15.693+0800	INFO	logger/logger.go:79	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-03T21:53:26.936+0800	ERROR	controllers/user.go:20	c.ShouldBindJSON(p) with invalid param	{"error": "Key: 'ParamSignUp.re_password' Error:Field validation for 're_password' failed on the 'eqfield' tag"}
+2024-11-03T21:53:26.936+0800	INFO	logger/logger.go:79	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-03T21:53:31.416+0800	ERROR	controllers/user.go:37	logic.SignUp(p) failed	{"error": "用户已存在"}
+2024-11-03T21:53:31.417+0800	INFO	logger/logger.go:79	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0010041}
+2024-11-03T21:53:59.555+0800	INFO	logger/logger.go:79	/signup	{"status": 200, "method": "POST", "path": "/signup", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0051158}
+2024-11-03T21:54:19.817+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005041}
+2024-11-03T21:54:39.699+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0010051}
+2024-11-03T21:55:11.367+0800	ERROR	controllers/user.go:56	c.ShouldBindJSON(p) with invalid param	{"error": "invalid character '}' looking for beginning of object key string"}
+2024-11-03T21:55:11.367+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-03T21:55:13.840+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0002619}
+2024-11-03T21:56:19.684+0800	ERROR	controllers/user.go:75	logic.Login(p) failed	{"error": "sql: no rows in result set"}
+2024-11-03T21:56:19.684+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0004983}
+2024-11-03T21:57:15.229+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-03T21:57:20.919+0800	ERROR	controllers/user.go:75	logic.Login(p) failed	{"error": "sql: no rows in result set"}
+2024-11-03T21:57:20.920+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0025074}
+2024-11-03T21:58:15.172+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-03T21:58:19.173+0800	ERROR	controllers/user.go:75	logic.Login(p) failed	{"error": "sql: no rows in result set"}
+2024-11-03T21:58:19.173+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0123455}
+2024-11-03T21:59:41.360+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-03T21:59:44.673+0800	ERROR	controllers/user.go:75	logic.Login(p) failed	{"error": "sql: no rows in result set"}
+2024-11-03T21:59:44.673+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0027056}
+2024-11-03T22:00:43.072+0800	ERROR	controllers/user.go:75	logic.Login(p) failed	{"error": "sql: no rows in result set"}
+2024-11-03T22:00:43.072+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0010909}
+2024-11-03T22:00:45.749+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005018}
+2024-11-03T22:00:49.505+0800	ERROR	controllers/user.go:75	logic.Login(p) failed	{"error": "sql: no rows in result set"}
+2024-11-03T22:00:49.505+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005022}
+2024-11-03T22:01:59.273+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-03T22:02:02.908+0800	ERROR	controllers/user.go:75	logic.Login(p) failed	{"error": "sql: no rows in result set"}
+2024-11-03T22:02:02.908+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0118052}
+2024-11-03T22:02:07.183+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0015483}
+2024-11-03T22:02:13.261+0800	ERROR	controllers/user.go:75	logic.Login(p) failed	{"error": "密码错误"}
+2024-11-03T22:02:13.261+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005021}
+2024-11-03T22:02:17.225+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-03T22:02:22.425+0800	ERROR	controllers/user.go:75	logic.Login(p) failed	{"error": "sql: no rows in result set"}
+2024-11-03T22:02:22.425+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005008}
+2024-11-03T22:02:26.600+0800	ERROR	controllers/user.go:75	logic.Login(p) failed	{"error": "密码错误"}
+2024-11-03T22:02:26.600+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005062}
+2024-11-03T22:02:30.941+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-03T22:11:17.610+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-03T22:11:21.782+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0015456}
+2024-11-03T22:11:28.416+0800	ERROR	controllers/user.go:75	logic.Login(p) failed	{"error": "用户不存在"}
+2024-11-03T22:11:28.417+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.001001}
+2024-11-03T22:11:34.710+0800	ERROR	controllers/user.go:75	logic.Login(p) failed	{"error": "密码错误"}
+2024-11-03T22:11:34.710+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005012}
+2024-11-03T22:13:49.994+0800	DEBUG	web-app/main.go:39	logger init success

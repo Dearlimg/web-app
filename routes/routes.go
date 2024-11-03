@@ -1,7 +1,6 @@
 package routes
 
 import (
-	"net/http"
 	"web-app/controllers"
 	"web-app/logger"
 
@@ -17,13 +16,6 @@ func Init(mode string) *gin.Engine {
 
 	r.POST("/signup", controllers.SignUpHandler)
 	r.POST("/login", controllers.LoginHandler)
-	r.GET("/", func(c *gin.Context) {
-		c.String(http.StatusOK, "hello world")
-	})
-
-	r.GET("/fuck", func(c *gin.Context) {
-		c.String(http.StatusOK, "fuck you!")
-	})
 
 	_ = r.Run()
 	return r

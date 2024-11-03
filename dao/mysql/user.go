@@ -4,10 +4,17 @@ import (
 	"crypto/md5"
 	"encoding/hex"
 	"errors"
+	"fmt"
 	"web-app/models"
 )
 
 const sercet string = "123"
+
+var (
+	ErrorUserExist       = errors.New("用户已存在")
+	ErrorUserNotExist    = errors.New("用户不存在")
+	ErrorInvalidPassword = errors.New("密码错误")
+)
 
 func CheckUserExist(username string) (err error) {
 	sqlStr := "select count(user_id) from user where username=?"
@@ -16,11 +23,9 @@ func CheckUserExist(username string) (err error) {
 	if err != nil {
 		return
 	}
-
 	if count > 0 {
-		return errors.New("用户已存在")
+		return ErrorUserExist
 	}
-
 	return
 }
 
@@ -45,11 +50,12 @@ func CheckUserPassword(User *models.ParamLogin) error {
 	sqlStr := `select username,password from user where username=?`
 	err := db.Get(User, sqlStr, User.Username)
 	if err != nil {
-		return err
+		return ErrorUserNotExist
 	}
 	password, _ := encryptPassword(opassword)
+	fmt.Println(opassword, User.Password, password)
 	if password != User.Password {
-		return errors.New("密码错误")
+		return ErrorInvalidPassword
 	}
 	return nil
 }
