@@ -71,7 +71,8 @@ func LoginHandler(c *gin.Context) {
 		return
 	}
 	//业务处理
-	if err1 := logic.Login(&p); err1 != nil {
+	token, err1 := logic.Login(&p)
+	if err1 != nil {
 		zap.L().Error("logic.Login(p) failed", zap.Error(err1))
 		//c.JSON(200, gin.H{
 		//	"msg": err1.Error(),
@@ -88,5 +89,5 @@ func LoginHandler(c *gin.Context) {
 	//c.JSON(200, gin.H{
 	//	"msg": "登录成功",
 	//})
-	ResponseSuccess(c, nil)
+	ResponseSuccess(c, token)
 }

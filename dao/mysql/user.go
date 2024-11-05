@@ -45,9 +45,9 @@ func encryptPassword(password string) (string, error) {
 	return hex.EncodeToString(h.Sum([]byte(password))), nil
 }
 
-func CheckUserPassword(User *models.ParamLogin) error {
+func CheckUserPassword(User *models.User) error {
 	opassword := User.Password
-	sqlStr := `select username,password from user where username=?`
+	sqlStr := `select user_id,username,password from user where username=?`
 	err := db.Get(User, sqlStr, User.Username)
 	if err != nil {
 		return ErrorUserNotExist
