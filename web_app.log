@@ -159,3 +159,8 @@
 2024-11-06T21:03:56.371+0800	INFO	logger/logger.go:79	/ping	{"status": 200, "method": "GET", "path": "/ping", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0006896}
 2024-11-07T18:10:37.703+0800	DEBUG	web-app/main.go:39	logger init success
 2024-11-07T18:11:20.628+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-07T18:12:01.922+0800	DEBUG	web-app/main.go:39	logger init success
+2024-11-07T18:12:08.081+0800	INFO	logger/logger.go:79	/ping	{"status": 200, "method": "GET", "path": "/ping", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-07T18:25:50.368+0800	INFO	logger/logger.go:79	/ping	{"status": 200, "method": "GET", "path": "/ping", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0010168}
+2024-11-07T18:25:51.029+0800	INFO	logger/logger.go:79	/ping	{"status": 200, "method": "GET", "path": "/ping", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-07T18:59:59.161+0800	DEBUG	web-app/main.go:39	logger init success
