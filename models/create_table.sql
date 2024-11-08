@@ -11,3 +11,9 @@ CREATE TABLE `user` (
                         UNIQUE KEY `idx_username` (`username`) USING BTREE,
                         UNIQUE KEY `idx_user_id` (`user_id`) USING BTREE
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+
+create table 'community'(
+    'id' int(11) not null auto_increment,
+    'community_id'
+)

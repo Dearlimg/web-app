@@ -1,10 +1,11 @@
 package routes
 
 import (
-	"github.com/gin-gonic/gin"
 	"web-app/controllers"
 	"web-app/logger"
 	"web-app/middlewares"
+
+	"github.com/gin-gonic/gin"
 )
 
 func Init(mode string) *gin.Engine {
@@ -16,6 +17,9 @@ func Init(mode string) *gin.Engine {
 
 	r.POST("/signup", controllers.SignUpHandler)
 	r.POST("/login", controllers.LoginHandler)
+	r.POST("/HELLO", func(context *gin.Context) {
+		context.JSON(200, "hell")
+	})
 	r.GET("/ping", middlewares.JWTAuthMiddleware(), func(c *gin.Context) {
 		c.JSON(200, "pong")
 	})
