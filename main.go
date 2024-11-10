@@ -26,6 +26,9 @@ import (
 
 func main() {
 	//1.加载配置
+	for i := 0; i < 3; i++ {
+		fmt.Println(1)
+	}
 	if err := settings.Init(); err != nil {
 		fmt.Println("init settings failed:", err)
 		return

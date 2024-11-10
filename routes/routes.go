@@ -14,18 +14,19 @@ func Init(mode string) *gin.Engine {
 	}
 	r := gin.Default()
 	r.Use(logger.GinLogger(), logger.GinRecovery(true))
-
-	r.POST("/signup", controllers.SignUpHandler)
-	r.POST("/login", controllers.LoginHandler)
-	r.POST("/HELLO", func(context *gin.Context) {
-		context.JSON(200, "hell")
-	})
-	r.GET("/ping", middlewares.JWTAuthMiddleware(), func(c *gin.Context) {
+	v1 := r.Group("/api/v1")
+	v1.POST("/signup", controllers.SignUpHandler)
+	v1.POST("/login", controllers.LoginHandler)
+	v1.GET("/ping", middlewares.JWTAuthMiddleware(), func(c *gin.Context) {
 		c.JSON(200, "pong")
 	})
+	v1.Use(middlewares.JWTAuthMiddleware())
+	{
+		v1.GET("/community", controllers.CommunityHandler)
+	}
 
 	r.NoRoute(func(c *gin.Context) {
-		c.JSON(404, gin.H{"code": "PAGE_NOT_FOUND", "message": "Page not found"})
+		c.JSON(200, gin.H{"code": "PAGE_NOT_FOUND", "message": "404"})
 	})
 
 	_ = r.Run()

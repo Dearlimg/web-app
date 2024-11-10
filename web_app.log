@@ -169,3 +169,18 @@
 2024-11-08T17:03:08.235+0800	INFO	logger/logger.go:79	/login	{"status": 200, "method": "POST", "path": "/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0236349}
 2024-11-08T17:03:42.560+0800	INFO	logger/logger.go:79	/ping	{"status": 200, "method": "GET", "path": "/ping", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
 2024-11-08T17:04:37.555+0800	INFO	logger/logger.go:79	/ping	{"status": 200, "method": "GET", "path": "/ping", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0014011}
+2024-11-10T19:19:49.146+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T19:21:03.500+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T19:21:24.964+0800	INFO	logger/logger.go:79	/community	{"status": 200, "method": "GET", "path": "/community", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-10T19:21:30.849+0800	INFO	logger/logger.go:79	/community	{"status": 200, "method": "GET", "path": "/community", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-10T19:21:57.502+0800	INFO	logger/logger.go:79	/community	{"status": 200, "method": "GET", "path": "/community", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-10T19:22:07.652+0800	INFO	logger/logger.go:79	/community	{"status": 200, "method": "POST", "path": "/community", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-10T19:22:10.578+0800	INFO	logger/logger.go:79	/community	{"status": 200, "method": "GET", "path": "/community", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-10T19:22:17.848+0800	INFO	logger/logger.go:79	/community	{"status": 200, "method": "GET", "path": "/community", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-10T19:23:19.444+0800	INFO	logger/logger.go:79	/api/va/community	{"status": 200, "method": "GET", "path": "/api/va/community", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-10T19:23:26.108+0800	INFO	logger/logger.go:79	/api/v1/community	{"status": 200, "method": "GET", "path": "/api/v1/community", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-10T19:24:10.367+0800	INFO	logger/logger.go:79	/api/v1/login	{"status": 200, "method": "GET", "path": "/api/v1/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-10T19:24:14.408+0800	INFO	logger/logger.go:79	/api/v1/login	{"status": 200, "method": "POST", "path": "/api/v1/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.051863}
+2024-11-10T19:24:23.276+0800	INFO	logger/logger.go:79	/api/v1/login	{"status": 200, "method": "POST", "path": "/api/v1/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0096805}
+2024-11-10T19:24:55.171+0800	INFO	logger/logger.go:79	/api/v1/community	{"status": 200, "method": "GET", "path": "/api/v1/community", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-10T19:32:46.708+0800	DEBUG	web-app/main.go:42	logger init success
