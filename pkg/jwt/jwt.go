@@ -3,6 +3,8 @@ package jwt
 import (
 	"time"
 
+	"github.com/spf13/viper"
+
 	"github.com/dgrijalva/jwt-go"
 )
 
@@ -21,7 +23,7 @@ func GenToken(Userid int64, username string) (string, error) {
 		username,
 		Userid,
 		jwt.StandardClaims{
-			ExpiresAt: time.Now().Add(TokenExpireDuration).Unix(),
+			ExpiresAt: time.Now().Add(time.Duration(viper.GetInt("jwt") * 24)).Unix(),
 			Issuer:    "bluebell",
 		},
 	}
@@ -34,6 +36,7 @@ func ParseToken(tokenString string) (*MyClaims, error) {
 	token, err := jwt.ParseWithClaims(tokenString, mc, func(token *jwt.Token) (interface{}, error) {
 		return mySercet, nil
 	})
+
 	if token.Valid {
 		if claims, ok := token.Claims.(*MyClaims); ok && token.Valid {
 			return claims, nil

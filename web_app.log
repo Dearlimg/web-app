@@ -184,3 +184,51 @@
 2024-11-10T19:24:23.276+0800	INFO	logger/logger.go:79	/api/v1/login	{"status": 200, "method": "POST", "path": "/api/v1/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0096805}
 2024-11-10T19:24:55.171+0800	INFO	logger/logger.go:79	/api/v1/community	{"status": 200, "method": "GET", "path": "/api/v1/community", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
 2024-11-10T19:32:46.708+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T19:33:25.392+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T19:33:54.341+0800	INFO	logger/logger.go:79	/api/v1/login	{"status": 200, "method": "GET", "path": "/api/v1/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-10T19:34:21.205+0800	INFO	logger/logger.go:79	/api/v1/login	{"status": 200, "method": "GET", "path": "/api/v1/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-10T19:34:25.442+0800	INFO	logger/logger.go:79	/api/v1/login	{"status": 200, "method": "POST", "path": "/api/v1/login", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0136385}
+2024-11-10T19:34:46.793+0800	INFO	logger/logger.go:79	/api/v1/community	{"status": 200, "method": "GET", "path": "/api/v1/community", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0148791}
+2024-11-10T19:40:38.724+0800	INFO	logger/logger.go:79	/api/v1/community	{"status": 200, "method": "GET", "path": "/api/v1/community", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0051228}
+2024-11-10T19:40:39.669+0800	INFO	logger/logger.go:79	/api/v1/community	{"status": 200, "method": "GET", "path": "/api/v1/community", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-10T20:55:41.698+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T20:55:48.319+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T20:55:57.699+0800	ERROR	controllers/community.go:25	strconv.ParseInt failed	{"error": "strconv.ParseInt: parsing \"\": invalid syntax"}
+2024-11-10T20:55:57.704+0800	WARN	mysql/community.go:21	select community err:	{"error": "missing destination name introduction in *models.Community"}
+2024-11-10T20:55:57.705+0800	ERROR	controllers/community.go:30	logic.GetCommunityDetailList failed	{"error": "missing destination name introduction in *models.Community"}
+2024-11-10T20:55:57.705+0800	INFO	logger/logger.go:79	/api/v1/community/1	{"status": 200, "method": "GET", "path": "/api/v1/community/1", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0061457}
+2024-11-10T20:57:06.815+0800	ERROR	controllers/community.go:25	strconv.ParseInt failed	{"error": "strconv.ParseInt: parsing \"\": invalid syntax"}
+2024-11-10T20:57:06.816+0800	WARN	mysql/community.go:21	select community err:	{"error": "missing destination name introduction in *models.Community"}
+2024-11-10T20:57:06.816+0800	ERROR	controllers/community.go:30	logic.GetCommunityDetailList failed	{"error": "missing destination name introduction in *models.Community"}
+2024-11-10T20:57:06.816+0800	INFO	logger/logger.go:79	/api/v1/community/1	{"status": 200, "method": "GET", "path": "/api/v1/community/1", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.001104}
+2024-11-10T20:57:09.147+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T20:57:11.262+0800	ERROR	controllers/community.go:25	strconv.ParseInt failed	{"error": "strconv.ParseInt: parsing \"\": invalid syntax"}
+2024-11-10T20:57:11.262+0800	INFO	logger/logger.go:79	/api/v1/community/1	{"status": 200, "method": "GET", "path": "/api/v1/community/1", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005027}
+2024-11-10T20:57:25.747+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T20:57:26.877+0800	ERROR	controllers/community.go:27	strconv.ParseInt failed	{"error": "strconv.ParseInt: parsing \"\": invalid syntax"}
+2024-11-10T20:57:26.877+0800	INFO	logger/logger.go:79	/api/v1/community/1	{"status": 200, "method": "GET", "path": "/api/v1/community/1", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0003288}
+2024-11-10T20:58:21.499+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T20:58:23.780+0800	WARN	mysql/community.go:21	select community err:	{"error": "missing destination name introduction in *models.Community"}
+2024-11-10T20:58:23.780+0800	ERROR	controllers/community.go:33	logic.GetCommunityDetailList failed	{"error": "missing destination name introduction in *models.Community"}
+2024-11-10T20:58:23.780+0800	INFO	logger/logger.go:79	/api/v1/community/1	{"status": 200, "method": "GET", "path": "/api/v1/community/1", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0028798}
+2024-11-10T21:01:16.119+0800	WARN	mysql/community.go:21	select community err:	{"error": "missing destination name introduction in *models.Community"}
+2024-11-10T21:01:16.119+0800	ERROR	controllers/community.go:33	logic.GetCommunityDetailList failed	{"error": "missing destination name introduction in *models.Community"}
+2024-11-10T21:01:16.119+0800	INFO	logger/logger.go:79	/api/v1/community/1	{"status": 200, "method": "GET", "path": "/api/v1/community/1", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0010035}
+2024-11-10T21:02:45.543+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T21:04:07.293+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T21:05:12.056+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T21:05:22.760+0800	WARN	mysql/community.go:21	select community err:	{"error": "missing destination name introduction in *models.Community"}
+2024-11-10T21:05:22.761+0800	ERROR	controllers/community.go:33	logic.GetCommunityDetailList failed	{"error": "missing destination name introduction in *models.Community"}
+2024-11-10T21:05:22.761+0800	INFO	logger/logger.go:79	/api/v1/community/1	{"status": 200, "method": "GET", "path": "/api/v1/community/1", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.005041}
+2024-11-10T21:05:39.984+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T21:05:40.017+0800	WARN	mysql/community.go:21	select community err:	{"error": "missing destination name introduction in *models.Community"}
+2024-11-10T21:05:40.017+0800	ERROR	controllers/community.go:33	logic.GetCommunityDetailList failed	{"error": "missing destination name introduction in *models.Community"}
+2024-11-10T21:05:40.018+0800	INFO	logger/logger.go:79	/api/v1/community/1	{"status": 200, "method": "GET", "path": "/api/v1/community/1", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0033913}
+2024-11-10T21:06:47.440+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T21:06:49.553+0800	WARN	mysql/community.go:21	select community err:	{"error": "missing destination name introduction in *models.Community"}
+2024-11-10T21:06:49.553+0800	ERROR	controllers/community.go:33	logic.GetCommunityDetailList failed	{"error": "missing destination name introduction in *models.Community"}
+2024-11-10T21:06:49.553+0800	INFO	logger/logger.go:79	/api/v1/community/1	{"status": 200, "method": "GET", "path": "/api/v1/community/1", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0055805}
+2024-11-10T21:07:42.584+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T21:07:44.676+0800	WARN	mysql/community.go:22	select community err:	{"error": "sql: Scan error on column index 3, name \"create_time\": converting driver.Value type time.Time (\"2024-11-10 18:53:03 +0000 UTC\") to a int64: invalid syntax"}
+2024-11-10T21:07:44.676+0800	ERROR	controllers/community.go:33	logic.GetCommunityDetailList failed	{"error": "sql: Scan error on column index 3, name \"create_time\": converting driver.Value type time.Time (\"2024-11-10 18:53:03 +0000 UTC\") to a int64: invalid syntax"}
+2024-11-10T21:07:44.676+0800	INFO	logger/logger.go:79	/api/v1/community/1	{"status": 200, "method": "GET", "path": "/api/v1/community/1", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0072041}

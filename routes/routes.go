@@ -23,6 +23,7 @@ func Init(mode string) *gin.Engine {
 	v1.Use(middlewares.JWTAuthMiddleware())
 	{
 		v1.GET("/community", controllers.CommunityHandler)
+		v1.GET("/community/:id", controllers.CommunityDetailHandler)
 	}
 
 	r.NoRoute(func(c *gin.Context) {

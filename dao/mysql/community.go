@@ -14,3 +14,13 @@ func GetCommunityList() (communitylist []models.Community, err error) {
 	}
 	return
 }
+
+func GetCommunityDetailList(communityid int64) (*models.CommunityDetails, error) {
+	community := new(models.CommunityDetails)
+	sqlstr := "select community_id,community_name,introduction,create_time from community where community_id=?"
+	if err := db.Get(community, sqlstr, communityid); err != nil {
+		zap.L().Warn("select community err:", zap.Error(err))
+		return community, err
+	}
+	return community, nil
+}
