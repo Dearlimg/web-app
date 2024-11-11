@@ -1,6 +1,7 @@
 package controllers
 
 import (
+	"strconv"
 	"web-app/logic"
 	"web-app/models"
 	"web-app/pkg/snowflake"
@@ -26,6 +27,31 @@ func PostHandler(r *gin.Context) {
 		ResponseError(r, CodeInvalidParam)
 		return
 	}
+
 	//返回
 	ResponseSuccess(r, CodeSuccess)
+}
+
+func GetPostDetailHandler(r *gin.Context) {
+	//参数校验
+	idstr := r.Param("id")
+	if len(idstr) == 0 {
+		zap.L().Error("logic.GetPostDetail idstr is empty")
+		ResponseError(r, CodeInvalidParam)
+		return
+	}
+	id, _ := strconv.ParseInt(idstr, 10, 64)
+	//事务处理
+	//if date, err := logic.GetPostByID(id); err != nil {
+	//	zap.L().Error("logic.GetPostByID", zap.Error(err))
+	//	ResponseError(r, CodeServerBusy)
+	//	return
+	//}
+	date, err := logic.GetPostByID(id)
+	if err != nil {
+		zap.L().Error("logic.GetPostDetail err", zap.Error(err))
+		ResponseError(r, CodeServerBusy)
+	}
+	//返回结果
+	ResponseSuccess(r, date)
 }

@@ -288,3 +288,14 @@
 2024-11-11T18:54:56.491+0800	ERROR	controllers/post.go:17	r.ShouldBindJSON(date)	{"error": "json: cannot unmarshal string into Go struct field Post.community_id of type int64"}
 2024-11-11T18:54:56.491+0800	INFO	logger/logger.go:79	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
 2024-11-11T18:55:13.085+0800	INFO	logger/logger.go:79	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0844781}
+2024-11-11T19:30:52.704+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T19:30:54.030+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T19:30:55.159+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T19:32:48.830+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T19:32:59.093+0800	INFO	logger/logger.go:79	/api/v1/post/577811148443750400	{"status": 200, "method": "GET", "path": "/api/v1/post/577811148443750400", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-11T19:33:21.363+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T19:33:24.937+0800	ERROR	mysql/post.go:23	GetPostByID	{"error": "missing destination name create_time in *models.Post"}
+2024-11-11T19:33:24.938+0800	ERROR	controllers/post.go:45	logic.GetPostByID	{"error": "missing destination name create_time in *models.Post"}
+2024-11-11T19:33:24.938+0800	INFO	logger/logger.go:79	/api/v1/post/577811148443750400	{"status": 200, "method": "GET", "path": "/api/v1/post/577811148443750400", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0031276}
+2024-11-11T19:34:31.136+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T19:34:33.025+0800	INFO	logger/logger.go:79	/api/v1/post/577811148443750400	{"status": 200, "method": "GET", "path": "/api/v1/post/577811148443750400", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0010336}

@@ -8,3 +8,7 @@ import (
 func Post(date *models.Post) (err error) {
 	return mysql.InsertPost(date)
 }
+
+func GetPostByID(ID int64) (post *models.Post, err error) {
+	return mysql.GetPostByID(ID)
+}
