@@ -1,7 +1,6 @@
 package controllers
 
 import (
-	"fmt"
 	"strconv"
 	"web-app/logic"
 
@@ -21,7 +20,6 @@ func CommunityHandler(c *gin.Context) {
 
 func CommunityDetailHandler(c *gin.Context) {
 	isstr := c.Param("id")
-	fmt.Println(isstr)
 	id, err := strconv.ParseInt(isstr, 10, 64)
 	if err != nil {
 		zap.L().Error("strconv.ParseInt failed", zap.Error(err))

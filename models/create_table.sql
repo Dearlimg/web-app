@@ -27,7 +27,7 @@ create table `community`(
 
 -- 插入第一个记录
 INSERT INTO `community` (`community_id`, `community_name`, `introduction`)
-VALUES (1, 'Community A', 'This is a description of Community A.');
+VALUES (5, 'Community A', 'This is a description of Community A.');
 
 -- 插入第二个记录
 INSERT INTO `community` (`community_id`, `community_name`, `introduction`)
@@ -40,3 +40,20 @@ VALUES (3, 'Community C', 'This is a description of Community C.');
 -- 插入第四个记录
 INSERT INTO `community` (`community_id`, `community_name`, `introduction`)
 VALUES (4, 'Community D', 'This is a description of Community D.');
+
+create table `post`(
+    `id` bigint(20) not null auto_increment,
+    `post_id` bigint(20) not null comment '帖子' ,
+    `title` varchar(128) collate utf8mb4_general_ci not null comment '标题',
+    `content` varchar(8192) collate utf8mb4_general_ci not null comment '内容',
+    `author_id` bigint(20) not null comment '作者id',
+    `community_id` bigint(20) not null comment '所属社区',
+    `status` tinyint(4) not null default '1' comment '帖子状态',
+    `create_time` timestamp null default current_timestamp comment '创建时间',
+    `update_time` timestamp null default current_timestamp on update current_timestamp comment '更新时间',
+    PRIMARY KEY (`id`),
+    unique key `idx_post_id` (`post_id`),
+    key `idx_author_id` (`author_id`),
+    key `idx_community_id` (`community_id`)
+ )engine = InnoDB default charset = utf8mb4 collate = utf8mb4_general_ci;
+

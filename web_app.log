@@ -232,3 +232,59 @@
 2024-11-10T21:07:44.676+0800	WARN	mysql/community.go:22	select community err:	{"error": "sql: Scan error on column index 3, name \"create_time\": converting driver.Value type time.Time (\"2024-11-10 18:53:03 +0000 UTC\") to a int64: invalid syntax"}
 2024-11-10T21:07:44.676+0800	ERROR	controllers/community.go:33	logic.GetCommunityDetailList failed	{"error": "sql: Scan error on column index 3, name \"create_time\": converting driver.Value type time.Time (\"2024-11-10 18:53:03 +0000 UTC\") to a int64: invalid syntax"}
 2024-11-10T21:07:44.676+0800	INFO	logger/logger.go:79	/api/v1/community/1	{"status": 200, "method": "GET", "path": "/api/v1/community/1", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0072041}
+2024-11-10T21:09:06.610+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T21:09:06.697+0800	INFO	logger/logger.go:79	/api/v1/community/1	{"status": 200, "method": "GET", "path": "/api/v1/community/1", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0025526}
+2024-11-10T21:09:12.243+0800	INFO	logger/logger.go:79	/api/v1/community/2	{"status": 200, "method": "GET", "path": "/api/v1/community/2", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-10T21:09:16.045+0800	INFO	logger/logger.go:79	/api/v1/community/3	{"status": 200, "method": "GET", "path": "/api/v1/community/3", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0004988}
+2024-11-10T21:09:19.236+0800	INFO	logger/logger.go:79	/api/v1/community/4	{"status": 200, "method": "GET", "path": "/api/v1/community/4", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005005}
+2024-11-10T21:10:23.415+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T21:44:33.867+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T21:58:59.976+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T21:59:41.111+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T22:02:35.291+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T22:03:12.374+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T22:08:39.682+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T22:16:34.838+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T22:22:10.592+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T22:31:55.164+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-10T22:31:57.138+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T17:53:42.819+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T17:54:11.899+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T17:54:26.773+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T17:55:37.704+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T17:56:00.492+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T17:57:47.197+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T17:59:07.738+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T18:02:00.227+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T18:03:30.631+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T18:04:09.555+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T18:10:23.817+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T18:11:00.939+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T18:14:20.056+0800	INFO	logger/logger.go:79	/api/v1/community/4	{"status": 200, "method": "GET", "path": "/api/v1/community/4", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0496882}
+2024-11-11T18:15:34.916+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T18:15:43.478+0800	INFO	logger/logger.go:79	/api/v1/community/4	{"status": 200, "method": "GET", "path": "/api/v1/community/4", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0007885}
+2024-11-11T18:15:56.115+0800	INFO	logger/logger.go:79	/api/v1/community/4	{"status": 200, "method": "GET", "path": "/api/v1/community/4", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005015}
+2024-11-11T18:16:24.238+0800	INFO	logger/logger.go:79	/api/v1/community/3	{"status": 200, "method": "GET", "path": "/api/v1/community/3", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-11T18:16:28.266+0800	INFO	logger/logger.go:79	/api/v1/community/1	{"status": 200, "method": "GET", "path": "/api/v1/community/1", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005016}
+2024-11-11T18:19:09.706+0800	INFO	logger/logger.go:79	/api/v1/community/5	{"status": 200, "method": "GET", "path": "/api/v1/community/5", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0125737}
+2024-11-11T18:38:18.703+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T18:40:23.344+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T18:41:54.152+0800	INFO	logger/logger.go:79	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-11T18:42:21.742+0800	INFO	logger/logger.go:79	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-11T18:43:14.248+0800	INFO	logger/logger.go:79	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-11T18:43:25.483+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T18:43:27.212+0800	INFO	logger/logger.go:79	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-11T18:45:26.043+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T18:47:10.540+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T18:48:34.566+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T18:48:40.781+0800	ERROR	controllers/post.go:17	r.ShouldBindJSON(date)	{"error": "json: cannot unmarshal string into Go struct field Post.author_id of type int64"}
+2024-11-11T18:48:40.781+0800	INFO	logger/logger.go:79	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005008}
+2024-11-11T18:50:11.413+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T18:50:26.144+0800	ERROR	controllers/post.go:17	r.ShouldBindJSON(date)	{"error": "json: cannot unmarshal string into Go struct field Post.author_id of type int64"}
+2024-11-11T18:50:26.144+0800	INFO	logger/logger.go:79	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-11T18:51:37.917+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T18:51:40.077+0800	ERROR	controllers/post.go:17	r.ShouldBindJSON(date)	{"error": "Key: 'Post.community_id' Error:Field validation for 'community_id' failed on the 'required' tag"}
+2024-11-11T18:51:40.077+0800	INFO	logger/logger.go:79	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.000507}
+2024-11-11T18:54:56.491+0800	ERROR	controllers/post.go:17	r.ShouldBindJSON(date)	{"error": "json: cannot unmarshal string into Go struct field Post.community_id of type int64"}
+2024-11-11T18:54:56.491+0800	INFO	logger/logger.go:79	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-11T18:55:13.085+0800	INFO	logger/logger.go:79	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0844781}
