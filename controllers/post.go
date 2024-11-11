@@ -42,11 +42,6 @@ func GetPostDetailHandler(r *gin.Context) {
 	}
 	id, _ := strconv.ParseInt(idstr, 10, 64)
 	//事务处理
-	//if date, err := logic.GetPostByID(id); err != nil {
-	//	zap.L().Error("logic.GetPostByID", zap.Error(err))
-	//	ResponseError(r, CodeServerBusy)
-	//	return
-	//}
 	date, err := logic.GetPostByID(id)
 	if err != nil {
 		zap.L().Error("logic.GetPostDetail err", zap.Error(err))

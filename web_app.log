@@ -299,3 +299,38 @@
 2024-11-11T19:33:24.938+0800	INFO	logger/logger.go:79	/api/v1/post/577811148443750400	{"status": 200, "method": "GET", "path": "/api/v1/post/577811148443750400", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0031276}
 2024-11-11T19:34:31.136+0800	DEBUG	web-app/main.go:42	logger init success
 2024-11-11T19:34:33.025+0800	INFO	logger/logger.go:79	/api/v1/post/577811148443750400	{"status": 200, "method": "GET", "path": "/api/v1/post/577811148443750400", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0010336}
+2024-11-11T19:37:42.810+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T19:37:44.817+0800	INFO	logger/logger.go:79	/api/v1/post/577811148443750400	{"status": 200, "method": "GET", "path": "/api/v1/post/577811148443750400", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005015}
+2024-11-11T19:50:51.727+0800	INFO	logger/logger.go:79	/api/v1/post/577811148443750400	{"status": 200, "method": "GET", "path": "/api/v1/post/577811148443750400", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0012261}
+2024-11-11T19:53:07.262+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T19:54:43.127+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T19:56:29.833+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T19:56:30.966+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T19:58:57.245+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T20:00:25.081+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T20:00:50.344+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T20:02:58.936+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T20:03:03.320+0800	ERROR	logic/post.go:22	mysql.GetUserByID fail	{"error": "scannable dest type ptr with >1 columns (2) in result"}
+2024-11-11T20:03:03.320+0800	INFO	logger/logger.go:79	/api/v1/post/577811148443750400	{"status": 200, "method": "GET", "path": "/api/v1/post/577811148443750400", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0155776}
+2024-11-11T20:03:26.126+0800	ERROR	logic/post.go:22	mysql.GetUserByID fail	{"error": "scannable dest type ptr with >1 columns (2) in result"}
+2024-11-11T20:03:26.126+0800	INFO	logger/logger.go:79	/api/v1/post/577811148443750400	{"status": 200, "method": "GET", "path": "/api/v1/post/577811148443750400", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-11T20:09:15.277+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T20:09:17.142+0800	ERROR	logic/post.go:22	mysql.GetUserByID fail	{"error": "scannable dest type ptr with >1 columns (2) in result"}
+2024-11-11T20:09:17.142+0800	INFO	logger/logger.go:79	/api/v1/post/577811148443750400	{"status": 200, "method": "GET", "path": "/api/v1/post/577811148443750400", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0018431}
+2024-11-11T20:10:37.998+0800	ERROR	logic/post.go:22	mysql.GetUserByID fail	{"error": "scannable dest type ptr with >1 columns (2) in result"}
+2024-11-11T20:10:37.998+0800	INFO	logger/logger.go:79	/api/v1/post/577811148443750400	{"status": 200, "method": "GET", "path": "/api/v1/post/577811148443750400", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.002554}
+2024-11-11T20:10:40.329+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T20:10:41.144+0800	ERROR	logic/post.go:22	mysql.GetUserByID fail	{"error": "scannable dest type ptr with >1 columns (2) in result"}
+2024-11-11T20:10:41.144+0800	ERROR	controllers/post.go:47	logic.GetPostDetail err	{"error": "scannable dest type ptr with >1 columns (2) in result"}
+2024-11-11T20:10:41.144+0800	INFO	logger/logger.go:79	/api/v1/post/577811148443750400	{"status": 200, "method": "GET", "path": "/api/v1/post/577811148443750400", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0021997}
+2024-11-11T20:11:03.364+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T20:12:03.116+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T20:12:48.257+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T20:13:13.899+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T20:13:15.182+0800	ERROR	logic/post.go:22	mysql.GetUserByID fail	{"error": "scannable dest type ptr with >1 columns (2) in result"}
+2024-11-11T20:13:15.182+0800	INFO	logger/logger.go:79	/api/v1/post/577811148443750400	{"status": 200, "method": "GET", "path": "/api/v1/post/577811148443750400", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0020319}
+2024-11-11T20:13:50.130+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T20:13:51.272+0800	ERROR	logic/post.go:22	mysql.GetUserByID fail	{"error": "nil pointer passed to StructScan destination"}
+2024-11-11T20:13:51.272+0800	INFO	logger/logger.go:79	/api/v1/post/577811148443750400	{"status": 200, "method": "GET", "path": "/api/v1/post/577811148443750400", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0016113}
+2024-11-11T20:18:42.737+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T20:18:44.324+0800	INFO	logger/logger.go:79	/api/v1/post/577811148443750400	{"status": 200, "method": "GET", "path": "/api/v1/post/577811148443750400", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0050125}

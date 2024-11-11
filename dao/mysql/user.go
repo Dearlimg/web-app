@@ -59,3 +59,10 @@ func CheckUserPassword(User *models.User) error {
 	}
 	return nil
 }
+
+func GetUserByID(id int64) (*models.User, error) {
+	user := new(models.User)
+	sqlStr := "select user_id,username from user where user_id=?"
+	err := db.Get(user, sqlStr, id)
+	return user, err
+}
