@@ -34,3 +34,31 @@ func GetPostByID(ID int64) (post *models.ApiPost, err error) {
 	}
 	return post, err
 }
+
+func GetPosts(page, size int64) ([]*models.ApiPost, error) {
+	apiposts := make([]*models.ApiPost, 0)
+	posts, err := mysql.GetPostList(page, size)
+	if err != nil {
+		zap.L().Error("mysql.GetPostList fail", zap.Error(err))
+		return nil, err
+	}
+	for _, v := range posts {
+		Username, err := mysql.GetUserByID(v.AuthorID)
+		if err != nil {
+			zap.L().Error("mysql.GetUserByID fail", zap.Error(err))
+			return nil, err
+		}
+		Community, err := mysql.GetCommunityDetailList(v.CommunityID)
+		if err != nil {
+			zap.L().Error("mysql.GetCommunityDetailList fail", zap.Error(err))
+			return nil, err
+		}
+		apipost := &models.ApiPost{
+			Username:         Username.Username,
+			CommunityDetails: Community,
+			Post:             v,
+		}
+		apiposts = append(apiposts, apipost)
+	}
+	return apiposts, nil
+}

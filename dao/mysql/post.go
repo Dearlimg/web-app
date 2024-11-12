@@ -25,3 +25,10 @@ func GetPostByID(postID int64) (post *models.Post, err error) {
 	}
 	return
 }
+
+func GetPostList(pige, size int64) (postList []*models.Post, err error) {
+	postList = make([]*models.Post, 0)
+	sqlstr := "select post_id,title,content,author_id,community_id,create_time from post limit ?,?"
+	err = db.Select(&postList, sqlstr, (pige-1)*size, size)
+	return
+}

@@ -50,3 +50,21 @@ func GetPostDetailHandler(r *gin.Context) {
 	//返回结果
 	ResponseSuccess(r, date)
 }
+
+func GetPostsHandler(r *gin.Context) {
+	//数据
+	page, size, err := GetPostParam(r)
+	if err != nil {
+		zap.L().Error("GetPostParam err", zap.Error(err))
+		ResponseError(r, CodeInvalidParam)
+		return
+	}
+	//业务处理
+	date, err := logic.GetPosts(page, size)
+	if err != nil {
+		zap.L().Error("logic.GetPosts err", zap.Error(err))
+		ResponseError(r, CodeServerBusy)
+	}
+	//返回
+	ResponseSuccess(r, date)
+}

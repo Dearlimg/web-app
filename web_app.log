@@ -334,3 +334,63 @@
 2024-11-11T20:13:51.272+0800	INFO	logger/logger.go:79	/api/v1/post/577811148443750400	{"status": 200, "method": "GET", "path": "/api/v1/post/577811148443750400", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0016113}
 2024-11-11T20:18:42.737+0800	DEBUG	web-app/main.go:42	logger init success
 2024-11-11T20:18:44.324+0800	INFO	logger/logger.go:79	/api/v1/post/577811148443750400	{"status": 200, "method": "GET", "path": "/api/v1/post/577811148443750400", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0050125}
+2024-11-11T20:22:46.977+0800	INFO	logger/logger.go:79	/api/v1/post/577811148443750400	{"status": 200, "method": "GET", "path": "/api/v1/post/577811148443750400", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0020053}
+2024-11-11T20:22:48.752+0800	INFO	logger/logger.go:79	/api/v1/post/577811148443750400	{"status": 200, "method": "GET", "path": "/api/v1/post/577811148443750400", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0010025}
+2024-11-11T20:48:13.637+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T20:52:59.983+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T20:53:50.086+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T20:57:12.014+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-11T21:03:15.645+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T18:43:24.336+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T18:45:14.282+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T18:45:15.601+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T18:47:39.716+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T18:50:53.721+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T18:57:58.278+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T18:58:12.895+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T18:59:34.866+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T19:01:13.194+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T19:04:24.275+0800	INFO	logger/logger.go:79	/api/v1/post/577811148443750400	{"status": 200, "method": "GET", "path": "/api/v1/post/577811148443750400", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0896511}
+2024-11-12T19:06:22.235+0800	INFO	logger/logger.go:79	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0242063}
+2024-11-12T19:06:53.887+0800	INFO	logger/logger.go:79	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0143908}
+2024-11-12T19:07:12.033+0800	INFO	logger/logger.go:79	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0024555}
+2024-11-12T19:07:26.544+0800	INFO	logger/logger.go:79	/api/v1/post	{"status": 200, "method": "POST", "path": "/api/v1/post", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0021121}
+2024-11-12T19:08:19.327+0800	ERROR	mysql/post.go:23	GetPostByID	{"error": "sql: no rows in result set"}
+2024-11-12T19:08:19.328+0800	ERROR	logic/post.go:17	mysql.GetPostByID fail	{"error": "sql: no rows in result set"}
+2024-11-12T19:08:19.328+0800	INFO	logger/logger.go:79	/api/v1/post/574919517826715648	{"status": 200, "method": "GET", "path": "/api/v1/post/574919517826715648", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0015414}
+2024-11-12T19:08:25.189+0800	INFO	logger/logger.go:79	/api/v1/post/574919517826715648	{"status": 200, "method": "POST", "path": "/api/v1/post/574919517826715648", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-12T19:08:28.430+0800	ERROR	mysql/post.go:23	GetPostByID	{"error": "sql: no rows in result set"}
+2024-11-12T19:08:28.430+0800	ERROR	logic/post.go:17	mysql.GetPostByID fail	{"error": "sql: no rows in result set"}
+2024-11-12T19:08:28.431+0800	INFO	logger/logger.go:79	/api/v1/post/574919517826715648	{"status": 200, "method": "GET", "path": "/api/v1/post/574919517826715648", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005006}
+2024-11-12T19:08:32.314+0800	INFO	logger/logger.go:79	/api/v1/post/577811148443750400	{"status": 200, "method": "GET", "path": "/api/v1/post/577811148443750400", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0002546}
+2024-11-12T19:09:23.477+0800	INFO	logger/logger.go:79	/api/v1/post/578176343238250496	{"status": 200, "method": "GET", "path": "/api/v1/post/578176343238250496", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0010022}
+2024-11-12T19:09:33.033+0800	INFO	logger/logger.go:79	/api/v1/post/578176475979583488	{"status": 200, "method": "GET", "path": "/api/v1/post/578176475979583488", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0015121}
+2024-11-12T19:10:03.422+0800	ERROR	controllers/request.go:36	GetPostParam filed:	{"error": "strconv.ParseInt: parsing \"\": invalid syntax"}
+2024-11-12T19:10:03.434+0800	ERROR	controllers/post.go:58	GetPostParam err	{"error": "strconv.ParseInt: parsing \"\": invalid syntax"}
+2024-11-12T19:10:03.434+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0117245}
+2024-11-12T19:10:21.493+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T19:10:22.204+0800	ERROR	controllers/request.go:36	GetPostParam filed:	{"error": "strconv.ParseInt: parsing \"\": invalid syntax"}
+2024-11-12T19:10:22.204+0800	ERROR	controllers/post.go:58	GetPostParam err	{"error": "strconv.ParseInt: parsing \"\": invalid syntax"}
+2024-11-12T19:10:22.204+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-12T19:11:44.856+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T19:11:51.448+0800	ERROR	controllers/request.go:36	GetPostParam filed:	{"error": "strconv.ParseInt: parsing \"\": invalid syntax"}
+2024-11-12T19:11:51.448+0800	ERROR	controllers/post.go:58	GetPostParam err	{"error": "strconv.ParseInt: parsing \"\": invalid syntax"}
+2024-11-12T19:11:51.449+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0015048}
+2024-11-12T19:12:05.410+0800	ERROR	controllers/request.go:36	GetPostParam filed:	{"error": "strconv.ParseInt: parsing \"\": invalid syntax"}
+2024-11-12T19:12:05.418+0800	ERROR	controllers/post.go:58	GetPostParam err	{"error": "strconv.ParseInt: parsing \"\": invalid syntax"}
+2024-11-12T19:12:05.419+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0129372}
+2024-11-12T19:12:20.312+0800	ERROR	controllers/request.go:36	GetPostParam filed:	{"error": "strconv.ParseInt: parsing \"\": invalid syntax"}
+2024-11-12T19:12:20.312+0800	ERROR	controllers/post.go:58	GetPostParam err	{"error": "strconv.ParseInt: parsing \"\": invalid syntax"}
+2024-11-12T19:12:20.312+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-12T19:12:45.278+0800	ERROR	controllers/request.go:36	GetPostParam filed:	{"error": "strconv.ParseInt: parsing \"\": invalid syntax"}
+2024-11-12T19:12:45.278+0800	ERROR	controllers/post.go:58	GetPostParam err	{"error": "strconv.ParseInt: parsing \"\": invalid syntax"}
+2024-11-12T19:12:45.278+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0002207}
+2024-11-12T19:14:39.093+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T19:14:39.528+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0258619}
+2024-11-12T19:14:41.556+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0020385}
+2024-11-12T19:15:37.130+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "page=1&size=2", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005046}
+2024-11-12T19:15:43.614+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "page=2&size=2", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.012732}
+2024-11-12T19:15:49.565+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "page=4&size=2", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0010419}
+2024-11-12T19:15:54.070+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "page=3&size=2", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005039}
+2024-11-12T19:18:43.017+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "size=2", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005912}
+2024-11-12T19:18:51.189+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "size=4", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0015222}
