@@ -5,7 +5,7 @@ import "github.com/gin-gonic/gin"
 type ResponseDate struct {
 	Code ResCode     `json:"code"`
 	Msg  interface{} `json:"msg"`
-	Date interface{} `json:"date"`
+	Date interface{} `json:"date,omitempty"`
 }
 
 func ResponseError(c *gin.Context, code ResCode) {

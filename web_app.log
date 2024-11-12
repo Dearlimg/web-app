@@ -394,3 +394,26 @@
 2024-11-12T19:15:54.070+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "page=3&size=2", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005039}
 2024-11-12T19:18:43.017+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "size=2", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005912}
 2024-11-12T19:18:51.189+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "size=4", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0015222}
+2024-11-12T20:29:44.263+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T20:30:07.715+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T20:31:30.427+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T20:32:11.017+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T20:32:17.840+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T20:32:26.377+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T21:23:24.754+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T21:25:40.439+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T21:27:22.655+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T21:31:01.737+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T21:35:09.071+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T21:39:39.690+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-12T21:39:48.000+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "size=4", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0314235}
+2024-11-12T21:40:24.417+0800	ERROR	controllers/vote.go:15	VoteHandler fail :	{"error": "Key: 'ParamVoted.post_id' Error:Field validation for 'post_id' failed on the 'required' tag\nKey: 'ParamVoted.direction' Error:Field validation for 'direction' failed on the 'required' tag"}
+2024-11-12T21:40:24.417+0800	INFO	logger/logger.go:79	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-12T21:41:37.741+0800	ERROR	controllers/vote.go:15	VoteHandler fail :	{"error": "json: invalid use of ,string struct tag, trying to unmarshal \"577811148443750400\" into string"}
+2024-11-12T21:41:37.741+0800	INFO	logger/logger.go:79	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0007297}
+2024-11-12T21:42:54.430+0800	ERROR	controllers/vote.go:15	VoteHandler fail :	{"error": "json: invalid use of ,string struct tag, trying to unmarshal \"1\" into string"}
+2024-11-12T21:42:54.430+0800	INFO	logger/logger.go:79	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.000502}
+2024-11-12T21:43:03.936+0800	ERROR	controllers/vote.go:15	VoteHandler fail :	{"error": "json: invalid use of ,string struct tag, trying to unmarshal \"577811148443750400\" into string"}
+2024-11-12T21:43:03.936+0800	INFO	logger/logger.go:79	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-12T21:45:13.962+0800	ERROR	controllers/vote.go:15	VoteHandler fail :	{"error": "json: invalid use of ,string struct tag, trying to unmarshal \"577811148443750400\" into string"}
+2024-11-12T21:45:13.962+0800	INFO	logger/logger.go:79	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
