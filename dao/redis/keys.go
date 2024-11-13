@@ -6,3 +6,7 @@ const (
 	KeyPostScoreZSet   = "post:score"
 	KeyPostVotedZSetPF = "post:voted:"
 )
+
+func getRedisKey(key string) string {
+	return KeyPrefix + key
+}

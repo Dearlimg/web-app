@@ -417,3 +417,46 @@
 2024-11-12T21:43:03.936+0800	INFO	logger/logger.go:79	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
 2024-11-12T21:45:13.962+0800	ERROR	controllers/vote.go:15	VoteHandler fail :	{"error": "json: invalid use of ,string struct tag, trying to unmarshal \"577811148443750400\" into string"}
 2024-11-12T21:45:13.962+0800	INFO	logger/logger.go:79	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-13T19:38:24.785+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-13T20:31:17.943+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-13T20:31:55.187+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-13T20:32:47.560+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-13T20:34:12.976+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-13T20:34:21.843+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "size=4", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.1151035}
+2024-11-13T20:34:29.860+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-13T20:34:32.395+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "size=4", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0022705}
+2024-11-13T20:34:33.138+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "size=4", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.001092}
+2024-11-13T20:34:38.591+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "size=10", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0020388}
+2024-11-13T20:35:25.965+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "size=10&page=1", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0015177}
+2024-11-13T20:35:32.246+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "size=2&page=1", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0010023}
+2024-11-13T20:35:36.058+0800	INFO	logger/logger.go:79	/api/v1/posts	{"status": 200, "method": "GET", "path": "/api/v1/posts", "query": "size=2&page=2", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005013}
+2024-11-13T21:05:22.330+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-13T21:05:24.602+0800	INFO	logger/logger.go:79	/api/v1/vote	{"status": 200, "method": "GET", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-13T21:05:35.871+0800	ERROR	controllers/vote.go:15	VoteHandler fail :	{"error": "Key: 'ParamVoted.post_id' Error:Field validation for 'post_id' failed on the 'required' tag\nKey: 'ParamVoted.direction' Error:Field validation for 'direction' failed on the 'required' tag"}
+2024-11-13T21:05:35.872+0800	INFO	logger/logger.go:79	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005013}
+2024-11-13T21:06:30.643+0800	ERROR	controllers/vote.go:15	VoteHandler fail :	{"error": "Key: 'ParamVoted.post_id' Error:Field validation for 'post_id' failed on the 'required' tag\nKey: 'ParamVoted.direction' Error:Field validation for 'direction' failed on the 'required' tag"}
+2024-11-13T21:06:30.643+0800	INFO	logger/logger.go:79	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "post_id=577811148443750400&direction=1", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0007103}
+2024-11-13T21:08:34.991+0800	ERROR	controllers/vote.go:15	VoteHandler fail :	{"error": "json: invalid use of ,string struct tag, trying to unmarshal \"577811148443750400\" into string"}
+2024-11-13T21:08:34.991+0800	INFO	logger/logger.go:79	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0010028}
+2024-11-13T21:10:21.987+0800	ERROR	controllers/vote.go:15	VoteHandler fail :	{"error": "json: invalid use of ,string struct tag, trying to unmarshal \"577811148443750400\" into string"}
+2024-11-13T21:10:21.987+0800	INFO	logger/logger.go:79	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-13T21:10:24.987+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-13T21:10:25.927+0800	ERROR	controllers/vote.go:15	VoteHandler fail :	{"error": "json: invalid use of ,string struct tag, trying to unmarshal \"1\" into string"}
+2024-11-13T21:10:25.927+0800	INFO	logger/logger.go:79	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005018}
+2024-11-13T21:10:41.402+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-13T21:10:42.980+0800	INFO	logger/logger.go:79	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0010875}
+2024-11-13T21:10:54.813+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-13T21:10:55.820+0800	INFO	logger/logger.go:79	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0005015}
+2024-11-13T21:10:56.873+0800	INFO	logger/logger.go:79	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-13T21:10:58.556+0800	INFO	logger/logger.go:79	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-13T21:33:37.197+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-13T21:33:58.587+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-13T21:34:01.139+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-13T21:34:19.018+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-13T21:35:26.992+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-13T21:35:28.754+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-13T21:35:48.320+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-13T21:36:23.157+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-13T21:37:12.371+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-13T21:37:23.031+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-13T21:42:51.622+0800	DEBUG	web-app/main.go:42	logger init success
