@@ -17,7 +17,17 @@ func VoteHandler(r *gin.Context) {
 		return
 	}
 	//业务
-	logic.PostVote()
+	userID, err := getCurrentUser(r)
+	if err != nil {
+		zap.L().Error("VoteHandler fail :", zap.Error(err))
+		ResponseError(r, CodeNeedLogin)
+		return
+	}
+	if err := logic.PostVote(userID, p); err != nil {
+		zap.L().Error("VoteHandler fail :", zap.Error(err))
+		ResponseError(r, CodeInvalidParam)
+		return
+	}
 	//返回
 	ResponseSuccess(r, nil)
 }

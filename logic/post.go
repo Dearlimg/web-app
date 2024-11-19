@@ -2,13 +2,19 @@ package logic
 
 import (
 	"web-app/dao/mysql"
+	"web-app/dao/redis"
 	"web-app/models"
 
 	"go.uber.org/zap"
 )
 
 func Post(date *models.Post) (err error) {
-	return mysql.InsertPost(date)
+	err = mysql.InsertPost(date)
+	if err != nil {
+		return err
+	}
+	err = redis.CreatePost(date.ID)
+	return err
 }
 
 func GetPostByID(ID int64) (post *models.ApiPost, err error) {

@@ -460,3 +460,59 @@
 2024-11-13T21:37:12.371+0800	DEBUG	web-app/main.go:42	logger init success
 2024-11-13T21:37:23.031+0800	DEBUG	web-app/main.go:42	logger init success
 2024-11-13T21:42:51.622+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-13T22:04:03.975+0800	INFO	logger/logger.go:79	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0020037}
+2024-11-13T22:04:04.955+0800	INFO	logger/logger.go:79	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0}
+2024-11-18T18:50:00.587+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-18T18:51:51.887+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-18T18:53:13.934+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-18T18:54:08.241+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-18T18:55:34.674+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-18T18:57:30.848+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-18T19:00:45.602+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-18T19:13:11.629+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-18T19:15:01.845+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-18T20:01:00.482+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-18T20:01:14.870+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-18T20:06:12.594+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-18T20:18:30.771+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-18T20:18:30.778+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-18T20:18:43.354+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-18T20:20:50.166+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-18T20:21:26.806+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-18T20:23:18.670+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-18T20:24:48.793+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T17:56:18.896+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T17:56:23.439+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T17:57:06.764+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T17:57:25.961+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T17:57:56.543+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T18:00:52.883+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T20:00:15.420+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T20:03:19.183+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T20:05:21.322+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T20:05:57.448+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T20:18:22.083+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T20:19:05.149+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T20:19:50.853+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T20:22:40.316+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T20:22:40.315+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T20:23:00.152+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T20:24:33.995+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T20:24:47.893+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T20:59:06.404+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T20:59:13.145+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T20:59:36.537+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T20:59:42.426+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T21:15:08.831+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T21:15:21.995+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T21:15:29.703+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T21:15:43.998+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T21:15:43.999+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T21:15:53.286+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T21:16:17.585+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T21:16:41.396+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T21:17:18.562+0800	DEBUG	web-app/main.go:42	logger init success
+2024-11-19T21:17:56.461+0800	DEBUG	logic/vote.go:12	logic.PostVote	{"userID": 574919517826715648, "postID": "577811148443750400"}
+2024-11-19T21:17:56.480+0800	INFO	logger/logger.go:79	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0210343}
+2024-11-19T21:18:29.652+0800	DEBUG	logic/vote.go:12	logic.PostVote	{"userID": 574919517826715648, "postID": "577811148443750400"}
+2024-11-19T21:18:29.654+0800	INFO	logger/logger.go:79	/api/v1/vote	{"status": 200, "method": "POST", "path": "/api/v1/vote", "query": "", "ip": "127.0.0.1", "user-agent": "PostmanRuntime/7.42.0", "errors": "", "cost": 0.0025228}
