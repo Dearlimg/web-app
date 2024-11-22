@@ -20,9 +20,24 @@ import (
 	"github.com/spf13/viper"
 
 	"go.uber.org/zap"
+
+	_ "bluebell/docs" // 千万不要忘了导入把你上一步生成的docs
 )
 
-//Go Web通用脚手架模板
+// @title bluebell
+// @version 1.0
+// @description 简单贴吧
+// @termsOfService http://swagger.io/terms/
+
+// @contact.name 1492568061@qq.com
+// @contact.url http://www.swagger.io/support
+// @contact.email support@swagger.io
+
+// @license.name Apache 2.0
+// @license.url http://www.apache.org/licenses/LICENSE-2.0.html
+
+// @host localhost:8081
+// @BasePath ./swag
 
 func main() {
 	//1.加载配置
