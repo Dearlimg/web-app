@@ -1,0 +1,15 @@
+host: localhost:8081
+info:
+  contact:
+    email: support@swagger.io
+    name: 1492568061@qq.com
+    url: http://www.swagger.io/support
+  description: 简单贴吧
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: bluebell
+  version: "1.0"
+paths: {}
+swagger: "2.0"

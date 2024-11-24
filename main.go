@@ -21,7 +21,7 @@ import (
 
 	"go.uber.org/zap"
 
-	_ "bluebell/docs" // 千万不要忘了导入把你上一步生成的docs
+	_ "web-app/docs" // 千万不要忘了导入把你上一步生成的docs
 )
 
 // @title bluebell

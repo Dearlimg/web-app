@@ -1,6 +1,7 @@
 package routes
 
 import (
+	"time"
 	"web-app/controllers"
 
 	swaggerFiles "github.com/swaggo/files"
@@ -19,7 +20,7 @@ func Init(mode string) *gin.Engine {
 		gin.SetMode(gin.ReleaseMode)
 	}
 	r := gin.Default()
-	r.Use(logger.GinLogger(), logger.GinRecovery(true))
+	r.Use(logger.GinLogger(), logger.GinRecovery(true), middlewares.RateLimitMiddleware(2*time.Second, 1))
 	v1 := r.Group("/api/v1")
 	v1.POST("/signup", controllers.SignUpHandler)
 	v1.POST("/login", controllers.LoginHandler)
